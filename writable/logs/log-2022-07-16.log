@@ -7,3 +7,9 @@ CRITICAL - 2022-07-16 22:33:26 --> Invalid file: funciones.php
 #5 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 /Users/bruno/Documents/Sites/pronosticos/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2022-07-16 23:14:59 --> Object of class App\Libraries\RestClient could not be converted to string
+#0 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Administracion->save_canal()
+#1 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#2 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/bruno/Documents/Sites/pronosticos/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

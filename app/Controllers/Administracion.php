@@ -8,14 +8,18 @@ class Administracion extends BaseController{
 
     function __construct(){
         $this->api = new RestClient([
-            //API V2 PRODUCCION
             'base_url' => 'https://api.lamat.pro/public/api',
-            'headers' => ['Ephylone'=>'pronos'],
-            'format' => ""]);
+            'headers' => ['Ephylone'=>'pronos'],'format' => ""
+        ]);
     }
 
     public function index(){
-        echo json_encode(array('status'=>200,'msg'=>"Saludos MIllones"));
+        echo json_encode(array('status'=>200,'msg'=>"Saludos Millones"));
+    }
+
+    public function save_canal(){
+        // echo $this->api->post('version')->response;
+        echo $this->api->post('insertar/canales',$_POST)->response;
     }
 
 }
