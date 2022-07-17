@@ -15,7 +15,7 @@ class Administracion extends BaseController{
     }
 
     public function index(){
-        echo "Hola Pronosticos";
+        echo json_encode(array('status'=>200,'msg'=>"Saludos MIllones"));
     }
 
 }
