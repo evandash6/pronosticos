@@ -18,7 +18,6 @@ class Administracion extends BaseController{
     }
 
     public function save_canal(){
-        // echo $this->api->post('version')->response;
         echo $this->api->post('insertar/canales',$_POST)->response;
     }
 
