@@ -1,0 +1,9 @@
+CRITICAL - 2022-07-16 22:33:26 --> Invalid file: funciones.php
+#0 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('funciones.php')
+#1 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('funciones', Array, true)
+#2 /Users/bruno/Documents/Sites/pronosticos/app/Controllers/Login.php(70): view('funciones')
+#3 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Login->salir()
+#4 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /Users/bruno/Documents/Sites/pronosticos/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Documents/Sites/pronosticos/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
